@@ -1,0 +1,654 @@
+/*==================================================
+=               	Navbar 		                  =
+==================================================*/
+
+/*Navbar*/
+.scrolled {background: rgba(0,0,0,.8)}
+
+.navbar .navbar-brand {color: white;font-size: 32px;font-weight: 900}
+
+
+/*==================================================
+=               	Headr 		                  =
+==================================================*/
+
+/*Header*/
+header {
+	background: url(../image/header.png) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	color: white;
+	overflow: hidden 
+}
+header .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5)
+}
+header .centering-vh {margin-top: 25vh}
+
+header h1 {font-size: 60px}
+
+header h1 ~ .lead {font-size: 30px;max-width: 100%}	
+
+header p:last-of-type {line-height: 1.7;color: #a2a2a5}
+
+header button {background: transparent;padding: 10px 30px;border: 2px solid white;margin-top: 20px}
+
+/*==================================================
+=             Headr,Media Query 	             =
+==================================================*/
+
+@media (max-width: 991px) {
+	
+	header button {margin: 20px auto;display: block}
+	
+	header .centering-vh {margin-top: 60px}
+}
+
+
+/*==================================================
+=             	Headr, Form 	 	             =
+==================================================*/
+
+/*Header Form*/
+header form {
+	width: 360px;
+	margin-top: 7vh;
+	background: white;
+	border-radius: 5px;
+	overflow: hidden
+}
+header form h4 {
+	background: #f5f5f5;
+	color: #333;
+	padding: 15px;
+	margin-top: 0;
+	margin-bottom: 30px
+}
+
+header form .form-control {
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+	border-bottom: 1px solid rgba(204, 204, 204, 0.37);
+	width: 80%;
+	margin: 0 auto 40px
+}
+header form input[type='submit'] {
+	color: white;
+	margin-top: 30px;
+	padding: 15px;
+	border-radius: 0
+}
+
+
+/*==================================================
+=             	Social Media 		             =
+==================================================*/
+
+/*Social Media*/
+.social-media {
+	padding: 10px;
+	margin-bottom: 2px;
+	-webkit-box-shadow: -2px -5px 13px black;
+	-moz-box-shadow: -2px -5px 13px black;
+	-o-box-shadow: -2px -5px 13px black;
+	box-shadow: -2px -5px 13px black;
+}
+
+.social-media h4 {margin-bottom: 3px;font-size: 22px}
+
+.social-media p {color: #9d9ea1;line-height: 1.5}
+
+.social-media i {
+	color: #ccc;
+	margin: 25px 15px;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+/*==================================================
+=       	Social Media, Media Query            =
+==================================================*/
+
+
+@media (max-width: 991px) {
+	
+	.social-media {text-align: center}
+	
+	.social-media h4 {margin-bottom: 15px}
+	
+	.social-media h4 {margin-bottom: 15px}
+	
+	.social-media i {margin-bottom: 15px}
+}
+
+/*==================================================
+=             	Tabs Section 		             =
+==================================================*/
+
+
+/*TABS*/
+.tabs {padding: 80px 0;background: #f5f5f5}
+
+.tabs .tab-switch li {
+	background: #333;
+	color: white;
+	border-bottom: 1px solid white;
+	width: 110px;
+	height: 110px;
+	line-height: 110px;
+	cursor: pointer
+}
+
+.tabs .tabs-content div:not(.tab-one){display: none}
+
+.tabs .tabs-content h3 {margin-top: 0;margin-bottom: 30px}
+
+.tabs .tabs-content p {color: #a4a5a8;line-height: 1.7;margin-bottom: 20px}
+
+.tabs .tabs-content button { color: white;margin-top: 20px;padding: 10px 20px}
+
+
+/*==================================================
+=             	Tabs, Media Query 		             =
+==================================================*/
+
+@media (max-width: 991px) {
+	
+	.tabs {padding: 80px 0; background: #f5f5f5}
+	
+	.tabs .tab-switch li {width: 100%; height: 100%}
+	
+	.tabs .tabs-content h3, .tabs .tabs-content p {text-align: center}
+	
+	.tabs .tabs-content button {margin: 30px auto; display: block}
+}
+
+/*==================================================
+=             	Sublist Section 	            =
+==================================================*/
+
+/*Sublist*/
+.sublist {padding: 80px 0}
+
+.sublist img {margin-top: 30px}
+
+.sublist p {color: #a4a5a8}
+
+.sublist .list-icon {margin-top: 30px;overflow: hidden}
+
+.sublist .list-icon i {
+	width: 40px;
+	height: 40px;
+	line-height: 36px;
+	text-align: center;
+	border: 2px solid #f28436;
+	border-radius: 50%;
+	margin-right: 30px;
+	margin-top: 10px
+}
+
+.sublist .list-icon .text-info {width: calc(100% - 70px)}
+
+
+/*==================================================
+=             	Sublist, Media Query             =
+==================================================*/
+
+
+@media (max-width: 991px) {
+	
+	.sublist h3, .sublist p, .sublist .list-icon h4 {text-align: center}
+	
+	.sublist .list-icon i,
+	.sublist .list-icon .text-info { float: none !important; display: block; margin: 0 auto}
+}
+
+
+/*==================================================
+=             		Standard 		             =
+==================================================*/
+
+
+/*Standard*/
+.standard {padding: 80px 0;background: #f5f5f5}
+
+.standard h3 {margin-top: 40px}
+
+.standard p {
+	color: #a4a5a8;
+	line-height: 1.7;
+	margin-bottom: 20px
+}
+.standard .list-icon {margin-top: 30px;overflow: hidden}
+
+
+/*==================================================
+=         	Standard, Media Query 		           =
+==================================================*/
+
+
+@media (max-width: 991px) {
+	.standard {padding: 40px 0}
+	
+	.standard h3,
+	.standard p {text-align: center}
+}
+
+/*==================================================
+=             		Awesome 		             =
+==================================================*/
+
+/*Awesome*/
+.awesome {padding: 80px 0}
+
+.awesome i {
+	width: 70px;
+	height: 70px;
+	line-height: 68px;
+	border: 2px solid #f28436;
+	border-radius: 50%
+}
+.awesome > div h3 {margin-bottom: 15px;}
+
+.awesome > div p {
+	margin-bottom: 80px;
+	color: #a4a5a8;
+	line-height: 1.7
+}
+
+
+/*==================================================
+=             		Pricing 		             =
+==================================================*/
+
+/*Pricing*/
+.price-section {background-color: #f5f5f5;padding: 100px}
+
+.price-section > div p {
+	margin-bottom: 80px;
+	color: #a4a5a8;
+	line-height: 1.7
+}
+.price-section .price-box {background: white;border: 1px solid white}
+
+.price-section .price-box h4 {
+	color: white;
+	background: #333;
+	padding: 15px 0;
+	margin: 0;
+	border: 1px solid white
+}
+.price-section .price-box .option-price {background: #333;padding: 10px 0;border-bottom: 5px solid #f28436}
+
+.price-section .price-box .option-price .price { font-size: 70px;color: white;display: block}
+
+.price-section .price-box .option-price .price .usd {font-size: 30px}
+
+.price-section .price-box .option-price .period {
+	color: #adadad;
+	font-style: italic
+}
+.price-section .price-box p {
+	color: white;
+	padding: 5px 10px 10px;
+	margin-bottom: 0;
+}
+.price-section ul li {padding: 10px;border-bottom: 1px solid #f5f5f5;color: #b9babc;}
+
+.price-section .basic,
+.price-section .enterprise {margin-top: 35px}
+
+
+/*==================================================
+=         	Pricing, Media Query 		          =
+==================================================*/
+
+@media (max-width: 991px) {
+
+	.price-section .basic {margin-bottom: 20px}	
+}
+
+
+/*==================================================
+=             	Testimonials  		             =
+==================================================*/
+
+
+/*Testimonials*/
+.testi {padding: 80px}
+
+.testi .container > p {margin-bottom: 40px;color: #a4a5a8}
+
+.testi .col-md-4 > p {
+	background: #f5f5f5;
+	padding: 20px;
+	margin-bottom: 20px;
+	color: #a4a5a8;
+	position: relative
+}
+
+.testi .col-md-4 > p:after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border: solid;
+	border-width: 15px;
+	border-color: #f5f5f5 transparent transparent;
+	position: absolute;
+	bottom: -28px;
+	left: 16px
+}
+.testi .media-heading {margin-top: 20px}
+
+.testi .media-body p {color: #a4a5a8;}
+
+
+/*==================================================
+=            Testimonials, Media Query 		       =
+==================================================*/
+
+
+@media (max-width: 991px) {
+	
+	.testi .media {margin-bottom: 15px}
+}
+
+
+/*==================================================
+=             	 	Stylish 		             =
+==================================================*/
+
+/*Stylish*/
+.stylish {
+	background: url(../image/u25_state0.png) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: relative;
+	color: white;
+	min-height: 320px
+}
+.stylish .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	padding: 60px 0
+}
+.stylish h2 {font-weight: 400}
+
+.stylish p {font-weight: lighter;color: #a4a5a8;}
+
+.stylish button {
+	background: transparent;
+	padding: 10px 30px;
+	border: 2px solid white;
+	margin-top: 20px
+}
+
+
+/*==================================================
+=             	Contact US  		             =
+==================================================*/
+
+/*Contact Us*/
+.contact {padding: 80px}
+
+.contact p {font-weight: lighter;color: #a4a5a8;margin-bottom: 50px}
+
+.contact form input[type='text'],
+.contact form input[type='email'] {margin-bottom: 20px}
+
+.contact form textarea {height: 178px}
+
+.contact button {
+	color: white;
+	margin-top: 20px;
+	padding: 10px 20px;
+	display: block;
+	margin: 30px auto
+}
+
+/*==================================================
+=             		Footer  		             =
+==================================================*/
+
+/*Footer*/
+footer {background: black;color: #eee;padding: 20px;font-size: 18px}
+
+footer i {
+	color: #ccc;
+	margin: 25px 15px;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+footer p {color: #606060}
+
+/*==================================================
+=             	MY FrameWork  		             =
+==================================================*/
+
+/*My Framework*/
+.head-border-white:after {
+	content: "";
+	display: block;
+	width: 55px;
+	height: 2px;
+	background-color: white;
+	margin: 25px 0
+}
+.head-border-orange:after {
+	content: "";
+	display: block;
+	width: 55px;
+	height: 2px;
+	margin: 25px 0
+}
+.head-border-center:after {
+	content: "";
+	display: block;
+	width: 55px;
+	height: 2px;
+	margin: 25px auto
+}
+.head-border-center-white:after {
+	content: "";
+	display: block;
+	width: 55px;
+	height: 2px;
+	background-color: white;
+	margin: 25px auto
+}
+
+@media (max-width: 991px) {
+	.head-border-white:after,
+	.head-border-orange:after,
+	.head-border-center:after,
+	.head-border-center:after{
+		margin: 25px auto
+	}
+}
+
+/*PlaceHolader*/
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	opacity: .5;
+	text-transform: capitalize;
+	font-size: 14px
+	
+}
+::-moz-placeholder { /* Firefox 19+ */
+	opacity: .7;
+	text-transform: capitalize;
+	font-size: 14px
+}
+:-ms-input-placeholder { /* IE 10+ */
+	opacity: .7;
+	text-transform: capitalize;
+	font-size: 14px
+}
+:-moz-placeholder { /* Firefox 18- */
+	opacity: .7;
+	text-transform: capitalize;
+	font-size: 14px
+}
+
+/*Icon Social Media*/
+.fa-facebook:hover {
+	color: #3b5998
+}
+.fa-twitter:hover {
+	color: #1da1f2
+}
+.fa-google-plus:hover {
+	color: #dd4b39
+}
+.fa-pinterest:hover {
+	color: #bd081c
+}
+.fa-instagram:hover {
+	color: #c13584
+}
+.fa-stumbleupon:hover {
+	color: #eb4924
+}
+.fa-rss:hover {
+	color: #f26522
+}
+
+/*Center Mobile*/
+@media (max-width: 991px) {
+	.text-center-xs {
+		text-align: center
+	}
+}
+
+/*Fonts*/
+header h1 ~ .lead,
+header p:last-of-type, 
+.awesome h2, 
+.price-section .price-box .option-price .price,
+.price-section .price-box .option-price .price .usd,
+.testi h2,
+.stylish h2,
+.stylish p,
+.contact p {
+	font-family: 'Raleway', sans-serif
+}
+
+header form h4, 
+header form input[type='submit'],
+.social-media h4,
+.social-media p,
+.tabs .tab-switch li,
+.tabs .tabs-content h3,
+.tabs .tabs-content p,
+.tabs .tabs-content button,
+.standard h3,
+.sublist h3,
+.sublist p,
+.sublist .list-icon h4,
+.standard p,
+.awesome > div h3,
+.awesome > div p,
+.price-section h2,
+.price-section > div p,
+.price-section .price-box h4,
+.price-section .price-box .option-price .period,
+.price-section .price-box p,
+.testi .container > p,
+.testi .col-md-4 > p,
+.testi .media-heading,
+.testi .media-body p,
+.contact button,
+footer p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header h1,
+header form h4,
+header form input[type='submit'],
+.social-media h4,
+.tabs .tab-switch li,
+.tabs .tabs-content h3,
+.sublist h3,
+.standard h3,
+.awesome > div h3,
+.price-section .price-box h4,
+.price-section .price-box .option-price .price,
+.price-section .price-box .option-price .price .usd,
+.price-section .price-box p,
+.testi .media-heading,
+footer p {
+	font-weight: bold
+}
+
+.navbar .navbar-brand span,
+header h1 span {
+	font-weight: normal	
+}
+
+.tabs .tabs-content button,
+.sublist .list-icon h4,
+.awesome h2,
+.price-section h2,
+.price-section .price-box .option-price .period,
+.testi h2,
+.testi .container > p,
+.testi .col-md-4 > p,
+.testi .media-body p,
+.contact button
+{
+	font-weight: small
+}
+
+header p:last-of-type,
+.social-media p,
+.tabs .tabs-content p,
+.sublist p,
+.standard p,
+.awesome > div p,
+.price-section > div p
+{
+	font-weight: 300
+}
+
+/*Main Color*/
+.navbar .navbar-brand span, 
+header h1 span,
+header form h4 span,
+.sublist .list-icon i,
+.awesome i {
+	color: #f28436
+}
+
+/*Main Background-Color*/
+header form input[type='submit'],
+.tabs .tab-switch li.selected,
+.tabs .tab-switch li:hover,
+.tabs .tabs-content button,
+.price-section .price-box p,
+.contact button,
+.head-border-orange:after,
+.head-border-center:after
+{
+	background: #f28436
+}
