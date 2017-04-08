@@ -271,7 +271,7 @@ header form input[type='submit'] {
 ==================================================*/
 
 /*Pricing*/
-.price-section {background-color: #f5f5f5;padding: 100px}
+.price-section {background-color: #f5f5f5;padding: 100px 0}
 
 .price-section > div p {
 	margin-bottom: 80px;
@@ -324,7 +324,7 @@ header form input[type='submit'] {
 
 
 /*Testimonials*/
-.testi {padding: 80px}
+.testi {padding: 80px 0}
 
 .testi .container > p {margin-bottom: 40px;color: #a4a5a8}
 
@@ -405,7 +405,7 @@ header form input[type='submit'] {
 ==================================================*/
 
 /*Contact Us*/
-.contact {padding: 80px}
+.contact {padding: 80px 0}
 
 .contact p {font-weight: lighter;color: #a4a5a8;margin-bottom: 50px}
 
